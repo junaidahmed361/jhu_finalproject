@@ -15,5 +15,4 @@ The biopandas package will be used to query all coordinate information for the P
 
 Now that the tool has pulled in coordinate info for PDB(s) for the individual protein sequences, the protein structure will be shown to the user as well in an interactive 3d plot. This will be achieved using the matplotlib 3d charting library. 
 
-
-(More details added soon...) 
+I plan to use the tab jquery API to display tab based results from a keyword query search. Each uniquename that is queried will be displayed as hyperlinks and shown to the user. The user will select a particular link and be given the detailed analysis of the peptide sequence.
