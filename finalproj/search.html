@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Final Project - Junaid Ahmed</title>
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/search_product.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script type="text/javascript" src="js/search.js"></script>
+    <link rel="icon" type="image/ico" href="img/favicon.ico" />
+</head>
+
+<body id="main">
+
+	<h1>Protein Analysis Tool</h1>
+        <!-- <p>Please type at least 3 characters to see autocomplete results. (You may need to add/remove character to retrieve results from cache.)</p> -->
+    <form name="gene_search" id="gene_search" action="">
+        <!-- <label for="tags"></label> -->
+        <input name="search_term" type="search" value="" autofocus="autofocus" id="tags" placeholder="Enter a search term"/>
+        <input name="submit" type="submit" id="submit" value="submit">
+    </form>
+    <div class="se-pre-con">Please wait a moment till your results are fetched...</div>
+    <section id='results'>
+        <p>
+            <span id='match_count'>0</span> match(es) found.
+        </p>
+  	<!-- <div id = "autoResult"></div> 
+        <table>
+            <thead>
+            <tr>
+                <td>Locus tag</td>
+                <td>Residue</td>
+                <td>Product</td>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        -->
+            
+    <!-- </section>
+
+    <section>-->
+        <div id="tabs" >
+            <ul id="tabLinks"></ul>
+        </div>
+    </section>
+
+</body>
+
+</html>
